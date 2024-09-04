@@ -1,0 +1,27 @@
+.postTitle{
+    text-align: center;
+    color:red;
+    font-family: "Concert One";
+    font-size: 3.5em;
+    /* text-decoration: none; */
+
+}
+.postBody{
+    font-family: "Concert One";
+    font-size: 1.5em;
+}
+.issueContainer{
+    background-color: red;
+}
+.containerLink{
+    text-decoration: none;
+}
+.postContainer{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+}
+/* .postImage{
+    
+} */
