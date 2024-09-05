@@ -1,32 +1,44 @@
 .postTitle{
     text-align: center;
-    color:red;
+    /* color:red; */
     font-family: "Concert One";
     font-size: 3.5em;
+    color: #FF69B4;
+    
     /* text-decoration: none; */
 
 }
 .postBody{
     font-family: "Concert One";
     font-size: 1.5em;
+    color: black;
 }
 #issueContainer{
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .containerLink{
     text-decoration: none;
 }
 .postContainer{
-
-    border-color: black;
+    background-color: #ffcde6;
+    box-shadow: 0px 0px 20px 5px #FF69B4;
+    border-radius: 50px;
+    border-color: #FF69B4;
     border-width: 3px;
     border-style: solid;
     padding: 5px;
-    margin: 5px;
+    margin: 15px;
 }
 /* .postImage{
     
 } */
+ #mainHeader{
+    font-family: "Concert One";
+    text-align: center;
+    font-size: 5em;
+    color: #FF69B4;
+ }
