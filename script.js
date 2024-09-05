@@ -5,7 +5,7 @@ function generate(){
     .then(res=>res.json()
     ).then(data=>{
         // console.log(data);
-        for(let i=0;i<data.length;i++){
+        for(let i=data.length-1;i>=0;i--){
             // console.log(data);
             let link = document.createElement("a");
             link.href = data[i].link;
