@@ -3,14 +3,12 @@
         "title":"Title",
         "body":"Body Text Body Text Body Text Body Text Body Text Body Text Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus habitant mauris vivamus facilisis elementum urna.",
         "image":"https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/fairfax/sushi_01754c5b-b766-4805-8920-37abb926df74.png",
-        "scale":"50",
         "link":"https://example.com/article.pdf"
     },   
     {
         "title":"Title2",
         "body":"Body Text Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus habitant mauris vivamus facilisis elementum urna.",
         "image":"https://www.allrecipes.com/thmb/XT7-9MROYJZvNyQR4J40HGOVDmQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/19511smoked-salmon-sushi-rollfabeveryday4x3-159a22b4d3ac49fe9a146db94b53c930.jpg    ",
-        "scale":"50",
         "link":"https://example.com/article.pdf"
     }
 

@@ -7,6 +7,7 @@ function generate(){
         // console.log(data);
         for(let i=data.length-1;i>=0;i--){
             // console.log(data);
+            let maxWidth = 700;
             let link = document.createElement("a");
             link.href = data[i].link;
             link.className = "containerLink";
@@ -16,18 +17,17 @@ function generate(){
             let image = document.createElement("img");
             image.src = data[i].image;
             image.className = "postImage";
-            image.height = image.height * (data[i].scale/100);
-            image.width = image.width * (data[i].scale/100);
+            let scale = maxWidth/image.width
+            image.height = image.height * scale;
+            image.width = image.width * scale;
             let body = document.createElement("p");
             body.innerHTML = data[i].body;
             body.className = "postBody";
             let container = document.createElement("div");
             container.className = "postContainer";
+            container.style.maxWidth = maxWidth+"px";
+                
             
-            if(image.width!==0){
-                container.style.maxWidth = image.width+"px";
-                link.style.backgroundColor = image.width+"px";
-            }
             // console.log(image.width);
             container.appendChild(title);
             container.appendChild(image);
