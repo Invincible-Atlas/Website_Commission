@@ -1,3 +1,4 @@
+
 @keyframes bob {
     0%{transform: scale(1);}
     50%{transform: scale(1.1);}
@@ -30,7 +31,7 @@
     text-decoration: none;
 }
 .postContainer{
-    background-color: #ffcde6;
+    background-color: #fcb4d8;
     box-shadow: 0px 0px 20px 5px #FF69B4;
     border-radius: 50px;
     border-color: #FF69B4;
@@ -38,6 +39,10 @@
     border-style: solid;
     padding: 5px;
     margin: 15px;
+    transition: all 0.1s;
+}
+.postContainer:hover{
+    transform: scale(0.9);
 }
 .postImage{
     border-radius: 10px;
@@ -53,4 +58,7 @@
     animation-iteration-count: infinite; */
     
     
+ }
+ body{
+    background-color: #ffcde6;
  }
