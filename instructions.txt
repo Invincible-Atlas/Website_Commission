@@ -8,7 +8,6 @@ Instructions for adding a new issue to the website:
                     "title":"Title",
                     "body":"Body Text",
                     "image":"https://example.com/image.png",
-                    "link":"https://example.com/article.pdf"
                 }
 
 
@@ -19,16 +18,14 @@ Instructions for adding a new issue to the website:
                     "title":"Title",
                     "body":"Body Text",
                     "image":"https://example.com/image.png",
-                    "link":"https://example.com/article.pdf"
                 },
                 {
                     "title":"Title 2",
                     "body":"Body Text 2",
                     "image":"https://example.com/image2.png",
-                    "link":"https://example.com/article2.pdf" 
                 }
 
 
             ]   
 
-3. Put your desired title, body text, image link, and article link in the proper fields.
+3. Put your desired title, body text, and image link, in the proper fields.
