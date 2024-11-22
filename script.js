@@ -32,8 +32,8 @@ function generate(){
             container.appendChild(title);
             container.appendChild(image);
             container.appendChild(body);
-            link.appendChild(container);
-            issueContainer.appendChild(link);
+            //link.appendChild(container);
+            issueContainer.appendChild(container);
         }
     })
 }
