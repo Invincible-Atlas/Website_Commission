@@ -41,9 +41,9 @@
     margin: 15px;
     transition: all 0.1s;
 }
-.postContainer:hover{
+/*.postContainer:hover{
     transform: scale(0.9);
-}
+}*/
 .postImage{
     border-radius: 10px;
 }
